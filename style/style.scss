@@ -99,10 +99,11 @@ body {
     }
     &__text-area{
       width: 50vw;
-      height: 300px;
+      height: 580px;
       min-width: 770px;
       max-width: 770px;
-      max-height: 300px;
+      min-height: 520px;
+      max-height: 580px;
     }
     &__botones{
       flex-direction: row;
@@ -153,6 +154,9 @@ body {
     color: $ColorPrimario;
     font-weight: 700;
     letter-spacing: 1.3px;
+    word-wrap: break-word;
+    line-height: 25px;
+    display: none;
   }
   &__boton{
     display: none;
@@ -169,7 +173,12 @@ body {
     }
     &__imagen{
       display: block;
-      margin-bottom: 10px;
+      margin-bottom: 25px;
+    }
+    &__mensaje-encriptado{
+      height: 535px;
+      width: 300px;
+      padding: 10px;
     }
   }
 }

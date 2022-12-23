@@ -111,10 +111,11 @@ body {
   }
   .textos__text-area {
     width: 50vw;
-    height: 300px;
+    height: 580px;
     min-width: 770px;
     max-width: 770px;
-    max-height: 300px;
+    min-height: 520px;
+    max-height: 580px;
   }
   .textos__botones {
     flex-direction: row;
@@ -161,6 +162,9 @@ body {
   color: #0A3871;
   font-weight: 700;
   letter-spacing: 1.3px;
+  word-wrap: break-word;
+  line-height: 25px;
+  display: none;
 }
 .encriptador__boton {
   display: none;
@@ -177,6 +181,11 @@ body {
   }
   .encriptador__imagen {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  .encriptador__mensaje-encriptado {
+    height: 535px;
+    width: 300px;
+    padding: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

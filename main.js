@@ -1,3 +1,8 @@
+/*
+
+    !SI QUIERES LEER EL CODIGO DE UNA MEJOR MANERA TE RECOMIENDO DESCARGAR LA EXTENCION (Better Comments) SU LOGO APARECE ASI (//!)
+
+*/
 //TODO: Se llaman los elementos que usaremos para darle interactividad a nuestra pagina.
 let textArea = document.getElementById("textarea");
 let textoEncriptado = document.getElementById("texto-encriptado");
